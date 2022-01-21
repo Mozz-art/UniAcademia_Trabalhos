@@ -1,0 +1,10 @@
+.Titulo {
+    font-weight:bolder;
+    position: absolute;
+    bottom: 410px;
+    left: 60px;
+    font-size: 35px;
+    text-shadow: 0.07em 0.07em gray;
+    
+}
+

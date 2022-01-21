@@ -1,0 +1,49 @@
+.menuLateral ul li{
+
+    position: relative;
+    cursor: pointer;
+    height: 25px;
+    width: 85px;
+    list-style-type: none;
+    padding: 0px;
+    top: 25px;
+    left: 25px;
+    font-size: 17px;
+    color: rgb(235, 235, 155);
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgb(235, 235, 155);
+}
+
+.PainelCadastro {
+
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+    top: 150px;
+    right: -80px;
+    width: 640px;
+    height: 250px;
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    border-color: green;
+
+}
+
+.MenuBottom ul li{
+    position: relative;
+    display: inline;
+    top: 10px;
+    font-size: 13px;
+    font-weight:bolder;
+    left: 65px;
+    cursor: pointer;
+    
+}
+
+.MenuBottom ul li a{
+    padding-right: 5px;
+    display: inline-block;
+    color: rgba(239,255,152,255);
+
+}

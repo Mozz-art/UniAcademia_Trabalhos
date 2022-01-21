@@ -1,0 +1,119 @@
+.Cronometro {
+        position: absolute;
+        background: rgb(0, 0, 0);
+        margin-top: 250px;
+        left: 200px;
+        width: 500px;
+        height: 300px;
+        list-style-type: none;
+        display:inline-block
+        
+        
+}  
+
+.img{
+
+  position: relative;
+
+}
+
+#play{
+  position: relative;
+  bottom: 13px;
+  left: 160px;
+  height: 22px;
+  width: 22px;
+  display: none;
+
+}
+
+#stop{
+  position: relative;
+  bottom: 13px;
+  left: 160px;
+  height: 22px;
+  width: 22px;
+  display: block;
+  
+}
+
+#wait{
+
+  position: relative;
+  bottom: 13px;
+  left: 160px;
+  height: 22px;
+  width: 22px;
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+span {
+  position: relative;
+  bottom: 38px;
+  left: 190px;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.botao {
+  position: relative;
+  cursor: pointer;
+  bottom: 50px;
+  left: 45px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  border: solid;
+  border-width: 0px 2px 2px 0px;
+  border-radius: 12px;
+  color: #fff;
+
+}
+
+#botao2 {
+  background-color: green;
+}
+
+#botao3 {
+  background-color: green;
+}
+
+
+#botao4{
+  background-color: green;
+
+}
+

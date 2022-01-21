@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css"/>
+    <link rel="stylesheet" href="Menus.css"/>
+    <link rel="stylesheet" href="css reset.css"/>
+    <link rel="stylesheet" href="Cronometro.css"/>
+    <link rel="stylesheet" href="TxtConfig.css"/>
+    <link rel="stylesheet" href="Painel.css"/>
+    <title>Desenvolvimento Web</title>
+    
+
+
+</head>
+
+
+<body>
+    
+    <div class="Background">
+
+        <div class="Header">
+            
+            <div class="Main">
+
+                <img src="page-bg.png">
+                
+                <nav class=menuLateral>
+                    
+                    <ul>
+                        <li>
+                            <a id="HidePainel">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a id="btnPainel1">Cadastrar</a>
+                        </li>
+                    
+                        <li>
+                            <a id="btnPainel2">Aprovados</a>
+                        </li>
+                    
+                        <li>
+                            <a id="btnPainel3">Reprovados</a>
+                        </li>
+                        
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        <div class="Cronometro">
+
+            <div class="img">
+                <img id="stop" src="stop.png">
+                    <img id="play" src="play.png">
+                        <img id="wait" src="Ampulheta.png">
+            
+            </div>
+                
+            </article>
+
+            <article>
+
+                <span id="hora">00:</span>
+                <span id="minutos">00:</span>
+                <span id="segundos">00:</span>
+                <span id="decimais">00</span>
+
+            </article>
+            
+            <article class="botoes">
+                <div class="botao" id="botao">iniciar</div>
+                <div class="botao" id="botao2">pausar</div>
+                <div class="botao" id="botao3">parar</div>
+                <div class="botao" id="botao4">zerar</div>
+            </article>
+
+
+            <div class="Titulo">
+
+                <h1>Desenvolvimento Web 2021-2</h1>
+
+            </div>
+
+            <h1 div class="Painel">Painel</h1>
+                
+            
+                <div id="ExibirPainel1" class="PainelCadastro">
+                   
+
+                    <p id="Cadastro">Cadastro</p>
+                    
+                    <p id="TxtCadastro">informe o nome e a nota</p>
+                    
+                        <div id="TXTLocation"> 
+                            
+                            <div class="form-group">
+                
+                                <input type="Nome"  class="form-control" placeholder="Nome" id="name">
+                            
+                                <label for="name" class="form-label">Nome</label>
+                            
+                            </div>
+                        
+                            <div class="form-group">
+
+                                <input class="form-control" type="Nota" placeholder="Nota" id="nota">
+                                
+                                <label for="nota" class="form-label">Nota</label>
+                            
+                            </div>
+                        
+                            <button class="salvar" id="btnSalvar">SALVAR</button>                           
+                                                          
+                        </div>
+
+                </div>
+
+            <div id="ExibirPainel2" class="PainelAprovados">
+
+
+                <p id="aprovados">Alunos Aprovados</p>
+                    
+                <p id="Txtaprovados">confira a lista de aprovados</p>
+
+                
+                <div >
+
+                    <table id="tabela" class="tabela">
+
+                        <tr>
+                            <th>ALUNO</th>
+                            <th>NOTAS</th>
+                            <th>STATUS</th>
+                        </tr>
+        
+                    </table>
+
+                </div> 
+
+            </div> 
+              
+            <div id="painelReprovados">
+                
+                <p id="reprovados">Alunos Reprovados</p>
+                    
+                <p id="Txtreprovados">confira a lista de Reprovados</p>
+
+                <div >
+
+                    <table id="tabela1" class="tabela1">
+
+                        <tr>
+                            <th>ALUNO</th>
+                            <th>NOTAS</th>
+                            <th>STATUS</th>
+                        </tr>
+        
+                    </table>
+
+                </div> 
+
+                </div>
+
+            </div>     
+
+            <div class="bottom">
+            
+                <nav class=MenuBottom>
+                    
+                    <ul>
+                        <li class="Traco">
+                            <a id="subHome">Home</a>
+                        </li>
+                        
+                        <li class="Traco">
+                            <a id="subCadastrar">Cadastrar</a>
+                        </li>
+                    
+                        <li class="Traco">
+                            <a id="subAprovados">Aprovados</a>
+                        </li>
+                    
+                        <li >
+                            <a id="subReprovados">Reprovados</a>
+                        </li> 
+                        
+                    </ul>
+                
+                </nav>
+
+            </div>    
+
+            <p id="Aluno">Aluno: Bruno Corona Braga</p>
+
+
+        </div>   
+
+    </div>       
+  
+
+<script src="Effect.js"></script>
+<script src="Valores.js"></script>
+<script src="cron.js"></script>
+     
+    
+</body>
+
+
+
+
+
+
+</html>
