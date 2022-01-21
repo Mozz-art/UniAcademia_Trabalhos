@@ -1,0 +1,33 @@
+.geral {
+    
+    width: 1500px;
+    margin:0 auto;
+    background:rgb(255, 255, 255);
+       
+
+}
+
+
+.background{
+    position: absolute;
+    top: 200px;
+    right: 780px;
+    border-radius: 30px;
+    background:rgb(39, 39, 71);
+    height: 780px;
+    width: 450px;
+    
+
+}
+
+.background1{
+
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    border-radius: 20px;
+    background:rgb(37, 37, 97);
+    height: 570px;
+    width: 450px;
+}
+

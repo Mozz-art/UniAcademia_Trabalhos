@@ -1,0 +1,58 @@
+
+.numeros{
+    width: 100px;
+    font-size: 25px;
+    height: 100px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.numeros:hover{
+    background-color: black;
+}
+
+.sinais{
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(187, 101, 31);
+    border: none;
+    color: #fff;
+}
+.sinais:hover{
+    background-color: black;
+}
+
+.igual{
+    position: fixed;
+    width: 100px;
+    height: 205px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(187, 101, 31);
+    border: none;
+    color: #fff;
+}
+.igual:hover{
+    background-color: black;
+}
+
+.zero{
+    position: fixed;
+    width: 205px;
+    height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.zero:hover{
+    background-color: black;
+}

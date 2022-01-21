@@ -1,0 +1,34 @@
+.VariavelUM i {
+    position: absolute;
+    left: 10px;
+    width: 480px;
+    height: 190px;
+    bottom: 670px;
+    background-color:burlywood;
+
+
+
+}
+
+ 
+#resultado{
+
+    position: absolute;
+    left: 15px;
+    width: 410px;
+    height: 150px;
+    bottom: 600px;
+    background-color:rgb(255, 255, 255);
+    font-size:  50px;
+    color: rgb(0, 0, 0);
+    border-radius: 13px;
+    border-color: rgb(255, 255, 255);
+    text-align: right; 
+
+
+
+
+
+
+
+}  
